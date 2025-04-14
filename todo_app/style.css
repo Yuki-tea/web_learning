@@ -70,3 +70,14 @@ body {
     background: #c0392b;
   }
   
+  .priority.low {
+    color: green;
+  }
+  .priority.medium {
+    color: orange;
+  }
+  .priority.high {
+    color: red;
+    font-weight: bold;
+  }
+  
