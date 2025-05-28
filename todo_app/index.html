@@ -11,6 +11,13 @@
             <h1>📋 ToDoリスト</h1>
             <div class="form">
                 <input type="text" id="taskInput" placeholder="やることを入力">
+                <select id="priorityInput">
+                    <option value="none">Priority</option>
+                    <option value="low">Low</option>
+                    <option value="middle">Middle</option>
+                    <option value="high">High</option>
+                </select>
+                <input type="date" id="dueDateInput">
                 <button id="addBtn">追加</button>
             </div>
             <ul id="taskList"></ul>
