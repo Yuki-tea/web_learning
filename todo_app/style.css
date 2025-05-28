@@ -70,14 +70,17 @@ body {
     background: #c0392b;
   }
   
-  .priority.low {
-    color: green;
+  #taskList li.priority.low {
+    background: rgb(9, 99, 9);
+    color: white;
   }
-  .priority.medium {
-    color: orange;
+  #taskList li.priority.middle {
+    background: rgb(230, 163, 41);
+    color: white;
   }
-  .priority.high {
-    color: red;
+  #taskList li.priority.high {
+    background: rgb(187, 57, 57);
+    color: white;
     font-weight: bold;
   }
   
