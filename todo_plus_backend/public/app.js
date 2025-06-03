@@ -8,7 +8,7 @@ const dueDateInput = document.getElementById("dueDateInput");
 window.addEventListener("DOMContentLoaded", fetchTasks);
 
 function fetchTasks() {
-  fetch("/task")
+  fetch("/tasks")
     .then(res => res.json())
     .then(data => {
       taskList.innerHTML = "";
