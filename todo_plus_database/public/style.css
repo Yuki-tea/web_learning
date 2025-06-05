@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #taskList li {
+    background: #eee;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #taskList li button {
+    background: #e74c3c;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  #taskList li button:hover {
+    background: #c0392b;
+  }
+  
+  #taskList li.priority.low {
+    background: rgb(9, 99, 9);
+    color: white;
+  }
+  #taskList li.priority.middle {
+    background: rgb(230, 163, 41);
+    color: white;
+  }
+  #taskList li.priority.high {
+    background: rgb(187, 57, 57);
+    color: white;
+    font-weight: bold;
+  }
+  
